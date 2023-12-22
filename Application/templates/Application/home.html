@@ -1,0 +1,8 @@
+{% extends 'Application/base.html' %}
+{% block content %}
+{% load static %}
+<h1>Welcome to the Home Page</h1>
+    <a href="{% url 'teacherSignup' %}"><button>Click here for teacherLogin</button></a>
+    <a href="{% url 'studentSignup' %}"><button>Click here for studentLogin</button></a>
+
+{% endblock %}
